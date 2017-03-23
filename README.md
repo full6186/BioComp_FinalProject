@@ -6,3 +6,9 @@ Structure is a Bayesian clustering algorithm commonly used in population genetic
 The following is code written to import Structure Results text files, cut out the block of data desired, and iterate/analyze all files in a user's 'Results' directory. This code is able to detect the number user-defined populations, K-clusters, and iterations -- providing an output for the MaxMean method created by Sebastian Puechmaille, 2016. It is suggested that researchers exhaustively examine their genetic data and clustering landscape by utilizing multiple K-means methods and ensure their conclusions are biologically realistic given their organism's natural history (Puechmaille, 2016).
 
 Please find four compilations of code in this GitHub directory that estimate K. Useful guidance comments have been included in the coding block to assist the user. For my data involving C. gunnisonii, the 'MaxMean' method produced a best value of K=8. This will require further testing and vetting against other K-cluster algorithms.
+
+Resources
+Pritchard JK, Stephens M, Donnelly P (2000) Inference of population structure using multilocus genotype data. 
+Genetics, 155, 945–959.
+
+Puechmaille SJ (2016) The program STRUCTURE does not reliably recover the correct population structure when sampling is uneven: subsampling and new estimators alleviate the problem. Molecular Ecology Resources, 16, 608-627. (doi: 10.1111/1755-0998.12512)
